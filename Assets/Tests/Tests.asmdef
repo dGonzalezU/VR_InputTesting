@@ -1,0 +1,32 @@
+{
+    "name": "Tests",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "Unity.InputSystem",
+        "Unity.InputSystem.TestFramework",
+        "Unity.InputSystem.IntegrationTests",
+        "Unity.XR.Interaction.Toolkit",
+        "Unity.XR.Interaction.Toolkit.Tests",
+        "Unity.XR.Management",
+        "Unity.XR.Management.Tests",
+        "Unity.XR.TestSupport",
+        "Unity.XR.Management.TestPackage",
+        "Unity.XR.CoreUtils",
+        "Unity.XR.CoreUtils.Tests"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
